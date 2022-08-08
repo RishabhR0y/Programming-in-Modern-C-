@@ -1,0 +1,10 @@
+#include <iostream>
+using namespace std;
+
+int product (int a, int b=1, int c=1) {
+    return a * b * c;
+}
+
+double product (double a, double b) {
+    return a * b;    
+}
