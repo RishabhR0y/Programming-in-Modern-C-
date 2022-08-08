@@ -1,0 +1,6 @@
+point operator+(point pt, int t){    //LINE-1
+    point new_pt;       //LINE-2
+    new_pt.x = pt.x + t;
+    new_pt.y = pt.y + t;
+    return new_pt;       //LINE-3
+}
